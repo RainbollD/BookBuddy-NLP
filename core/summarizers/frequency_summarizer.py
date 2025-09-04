@@ -46,4 +46,4 @@ class SimpleFrequencySummarizer:
         for idx, _ in summarized_sentence:
             summarized_text.append(sentences[idx])
 
-        return ' '.join(summarized_text)
+        return '\n'.join(summarized_text)
